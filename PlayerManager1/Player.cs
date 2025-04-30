@@ -7,7 +7,15 @@ namespace PlayerManager1
 {
     public class Player
     {
+        //Properties
         public string Name { get;}
-        public int Score { get;}
+        public int Score { get; set;}
+
+        //Constructor
+        public Player(string name, int score)
+    {
+        Name = name;
+        Score = score;
+    }
     }
 }

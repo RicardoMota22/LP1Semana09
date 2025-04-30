@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace PlayerManager1 // >>> Change to PlayerManager2 for exercise 4 <<< //
 {
@@ -111,6 +112,9 @@ namespace PlayerManager1 // >>> Change to PlayerManager2 for exercise 4 <<< //
             Console.Write("Player Score?");
             string fscore = Console.ReadLine();
             int score = System.Convert.ToInt32(fscore);
+
+            // Create a new Player object and add it to the list
+            playerList.Add(new Player(name, score));
         }
 
         /// <summary>
@@ -174,6 +178,7 @@ namespace PlayerManager1 // >>> Change to PlayerManager2 for exercise 4 <<< //
             // /////////////////// //
             // COMPLETE ME PLEASE! //
             // /////////////////// //
+            return playerList.Where(p => p.Score > minScore);
         }
     }
 }
