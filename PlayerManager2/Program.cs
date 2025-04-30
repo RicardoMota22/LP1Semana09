@@ -141,12 +141,12 @@ namespace PlayerManager2//PlayerManager1 // >>> Change to PlayerManager2 for exe
         /// <summary>
         /// Show all players with a score higher than a user-specified value.
         /// </summary>
-        public  IEnumerable<Player> ListPlayersWithScoreGreaterThan()
+        private void ListPlayersWithScoreGreaterThan()
         {
             // /////////////////// //
             // COMPLETE ME PLEASE! //
             // /////////////////// //
-            /*Console.Write("Enter the minimum score: ");
+            Console.Write("Enter the minimum score: ");
             string input = Console.ReadLine();
 
             // Convert the input to an integer
@@ -163,19 +163,6 @@ namespace PlayerManager2//PlayerManager1 // >>> Change to PlayerManager2 for exe
                 // Handle invalid input
                 Console.WriteLine("Invalid score. Please enter a valid number.");
             }
-            */
-            Console.Write("Enter the minimum score: ");
-            string input = Console.ReadLine();
-            int minScore = System.Convert.ToInt32(input);
-
-            foreach (Player player in playerList)
-            {
-                if (player.Score > minScore)
-                {
-                    yield return player;
-                }
-                
-            }
 
         }
 
@@ -191,7 +178,15 @@ namespace PlayerManager2//PlayerManager1 // >>> Change to PlayerManager2 for exe
             // /////////////////// //
             // COMPLETE ME PLEASE! //
             // /////////////////// //
-            return playerList.Where(p => p.Score > minScore);
+            //return playerList.Where(p => p.Score > minScore);
+
+            foreach (Player player in playerList)
+            {
+                if (player.Score > minScore)
+                {
+                    yield return player;
+                }
+            }
         }
     }
 }
