@@ -1,4 +1,4 @@
-﻿namespace AnimalKingdom
+﻿namespace AnimalKingdom.AnimalKingdomTemplate
 {
     public abstract class Animal
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AnimalKingdom
+namespace AnimalKingdom.AnimalKingdomTemplate
 {
     // Alternative Program class if you don't want to program your own
     public class Program2
@@ -39,9 +39,9 @@ namespace AnimalKingdom
                 if (a is IMammal)
                     Console.Write(
                         $"\t| No.Nipples = {(a as IMammal).NumberOfNipples}");
-                if (a is ICanFly)
+                if (a is IICanFly)
                     Console.Write(
-                        $"\t| No.Wings = {(a as ICanFly).NumberOfWings}");
+                        $"\t| No.Wings = {(a as IICanFly).NumberOfWings}");
                 Console.WriteLine();
             }
         }

@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace AnimalKingdom.AnimalKingdomTemplate
 {
-    public interface IMammal
+    public interface IICanFly
     {
-        int NumberOfNipples { get; }
+        int NumberOfWings { get; }
     }
 }
