@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager1", "PlayerMan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager2", "PlayerManager2\PlayerManager2.csproj", "{85330339-02B0-4DA5-B74B-F40727CF3BA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager3", "PlayerManager3\PlayerManager3.csproj", "{4D3CFE10-09D3-4F23-97D7-83A1D268470D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{85330339-02B0-4DA5-B74B-F40727CF3BA0}.Release|x64.Build.0 = Release|Any CPU
 		{85330339-02B0-4DA5-B74B-F40727CF3BA0}.Release|x86.ActiveCfg = Release|Any CPU
 		{85330339-02B0-4DA5-B74B-F40727CF3BA0}.Release|x86.Build.0 = Release|Any CPU
+		{4D3CFE10-09D3-4F23-97D7-83A1D268470D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3CFE10-09D3-4F23-97D7-83A1D268470D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3CFE10-09D3-4F23-97D7-83A1D268470D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4D3CFE10-09D3-4F23-97D7-83A1D268470D}.Debug|x64.Build.0 = Debug|Any CPU
+		{4D3CFE10-09D3-4F23-97D7-83A1D268470D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4D3CFE10-09D3-4F23-97D7-83A1D268470D}.Debug|x86.Build.0 = Debug|Any CPU
+		{4D3CFE10-09D3-4F23-97D7-83A1D268470D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3CFE10-09D3-4F23-97D7-83A1D268470D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3CFE10-09D3-4F23-97D7-83A1D268470D}.Release|x64.ActiveCfg = Release|Any CPU
+		{4D3CFE10-09D3-4F23-97D7-83A1D268470D}.Release|x64.Build.0 = Release|Any CPU
+		{4D3CFE10-09D3-4F23-97D7-83A1D268470D}.Release|x86.ActiveCfg = Release|Any CPU
+		{4D3CFE10-09D3-4F23-97D7-83A1D268470D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
