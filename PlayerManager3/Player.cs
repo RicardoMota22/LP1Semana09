@@ -21,7 +21,8 @@ namespace PlayerManager3
         public int CompareTo(Player other)
         {
             if (other == null) return 1;
-            return Score.CompareTo(other.Score);
+            //return Score.CompareTo(other.Score);//ascendente
+            return other.Score.CompareTo(Score);
         }
 
     }

@@ -132,7 +132,13 @@ namespace PlayerManager3//PlayerManager1 // >>> Change to PlayerManager2 for exe
             // COMPLETE ME PLEASE! //
             // /////////////////// //
             Console.WriteLine("\n--- Player List ---");
-            foreach (Player player in playersToList)
+
+            // Ordenar os jogadores antes de exibir
+            List<Player> sortedPlayers = playersToList.ToList();
+            sortedPlayers.Sort(); // Usa o CompareTo da classe Player
+
+            //foreach (Player player in playersToList)
+            foreach (Player player in sortedPlayers)
             {
                 Console.WriteLine($"Name: {player.Name}, Score: {player.Score}");
             }
